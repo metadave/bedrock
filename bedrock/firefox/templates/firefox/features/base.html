@@ -4,8 +4,6 @@
 
 {% extends "firefox/base-pebbles.html" %}
 
-{# L10n: strings for this page are not considered final and aren't ready for localization. #}
-
 {% block optimizely %}
   {% if switch('firefox-features-optimizely', ['en-US']) %}
     {% include 'includes/optimizely.html' %}
