@@ -273,6 +273,7 @@ NOINDEX_URLS = [
     r'^firefox/send-to-device-post',
     r'^firefox/feedback',
     r'^firefox/stub_attribution_code/',
+    r'^.+/(firstrun|whatsnew)/$',
     r'^infobar/',
     r'^l10n_example/',
     r'^m/',
@@ -280,6 +281,8 @@ NOINDEX_URLS = [
     r'^tabzilla/',
     r'/system-requirements/$',
     r'.*/(firstrun|thanks)/$',
+    r'^rna/',
+    r'^healthz/$',
 ]
 
 ALT_CANONICAL_PATHS = {
